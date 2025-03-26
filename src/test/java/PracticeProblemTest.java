@@ -13,7 +13,7 @@ void insertionSortTest1() {
   // Enter code here
   double arr[] = {155.2, 155.1, 1, 5, 3, 2, 7};
   double arr2[] = {1, 2, 3, 5, 7, 155.1, 155.2};
-    (double[])method.invoke(null, arr);
+    method.invoke(null, arr);
   assertArrayEquals(arr2, arr, 0.1);
 }
 
@@ -58,7 +58,7 @@ void selectionSortTest1() {
   // Enter code here
   double arr[] = {155.2, 155.1, 1, 5, 3, 2, 7, 8};
   double arr2[] = {1, 2, 3, 5, 7, 8, 155.1, 155.2};
-    (double[])method.invoke(null, arr);
+    method.invoke(null, arr);
   assertArrayEquals(arr2, arr, 0.1);
 }
 
@@ -188,7 +188,7 @@ void leastSwapsTest4() {
         Method method = testClass.getDeclaredMethod("leastSwaps", cArg);
   // Enter code here
   double arr[] = {9, 7, 4, 2, 1, 0};
-    Strin result = (String)method.invoke(null, arr);
+    String result = (String)method.invoke(null, arr);
   assertEquals("Selection", result);
 }
 
@@ -294,7 +294,7 @@ void bubbleSortTest1() {
   // Enter code here
   double arr[] = {155.2, 155.1, 1, 5, 3, 2, 7, 235};
   double arr2[] = {1, 2, 3, 5, 7, 155.1, 155.2, 235};
-    (double[])method.invoke(null, arr);
+    method.invoke(null, arr);
   assertArrayEquals(arr2, arr, 0.1);
 }
 
