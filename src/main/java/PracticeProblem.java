@@ -103,7 +103,7 @@ public class PracticeProblem {
 			bestSort = "Selection";
 		}
 
-		//tie breaking
+		
 		if (bubbleSwaps <= insertionSwaps && bubbleSwaps <= selectionSwaps) {
 			return "Bubble";
 		}
